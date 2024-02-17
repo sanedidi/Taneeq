@@ -199,6 +199,7 @@ footer.open {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
+
 .footer {
   padding: 20px 0 0;
   background-color: #0f172a;
@@ -406,12 +407,10 @@ footer.open {
 }
 .gg .hero1__left {
   display: flex;
-  align-items: center;
-  flex-direction: row;
   gap: 20px;
 }
 .gg .hero1__line {
-  height: 120px;
+  min-height: 100%;
   width: 3px;
   background-color: #24cca8;
 }
@@ -421,6 +420,10 @@ footer.open {
   gap: 20px;
   width: 100%;
   max-width: 500px;
+  transition: all 0.2s;
+}
+.gg .hero1__content.shaxa {
+  transform: translateY(-140px);
 }
 .gg .hero1__title {
   font-family: "Roboto", sans-serif;
@@ -465,4 +468,12 @@ footer.open {
 }
 .blue:hover {
   border-bottom: 1px solid #24cca8;
+}
+
+.hero1__swiper {
+  max-height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: hidden;
 }/*# sourceMappingURL=style.css.map */
