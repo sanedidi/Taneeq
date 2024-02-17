@@ -70,5 +70,5 @@ let elems = document.querySelectorAll(".hero1__content");
 elems.forEach((el) => {
   setInterval(() => {
     el.classList.toggle("shaxa");
-  }, 3000);
+  }, 2000);
 });
