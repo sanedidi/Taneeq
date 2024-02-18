@@ -2,7 +2,7 @@ window.addEventListener("scroll", function () {
   const hero = document.querySelector(".hero1");
   const footer = document.querySelector(".footer");
   const header = document.querySelector(".header");
-  const link = document.querySelectorAll(".header__link");
+  const links = document.querySelectorAll(".header__link");
   const btn = document.querySelector(".header__btn");
   const btn1 = document.querySelector(".header__right");
   const logo = document.querySelector(".header__logo");
