@@ -262,7 +262,9 @@ footer {
   &__top {
     padding: 10px 0;
   }
-
+.header__link{
+  color:#fff;
+}
   // .footer__wrapper
 
   &__wrapper {
@@ -560,7 +562,7 @@ footer {
 }
 
 .blue {
-  color: #fff;
+  color: #24cca8;
   border-bottom: 1px solid transparent;
   &:hover {
     border-bottom: 1px solid #24cca8;
