@@ -86,6 +86,9 @@ footer.open {
   letter-spacing: 1px;
   transition: all 0.3s;
 }
+.header__links{
+  color:#fff;
+}
 .header__link:hover {
   border-bottom: 1px solid white;
 }
