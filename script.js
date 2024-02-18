@@ -14,7 +14,9 @@ window.addEventListener("scroll", function () {
     footer.classList.add("open");
     header.classList.add("white");
     logo.classList.add("blue1");
-
+links.forEach(link => {
+            link.classList.add('blue');
+        });
     btn.classList.add("blue2");
     btn1.classList.add("blue3");
   } else {
@@ -22,7 +24,9 @@ window.addEventListener("scroll", function () {
     footer.classList.remove("open");
     header.classList.remove("white");
     logo.classList.remove("blue1");
-
+links.forEach(link => {
+            link.classList.remove('blue');
+        });
     btn.classList.remove("blue2");
     btn1.classList.remove("blue3");
   }
