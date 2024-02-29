@@ -1,6 +1,11 @@
 body {
   padding-top: 80px;
   position: relative;
+  overflow-x: hidden;
+}
+
+.header__links {
+  color: white !important;
 }
 
 footer {
@@ -33,6 +38,9 @@ footer.open {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+.header__links {
+  color: white;
 }
 .header__logo {
   color: white;
@@ -86,9 +94,6 @@ footer.open {
   letter-spacing: 1px;
   transition: all 0.3s;
 }
-.header__links{
-  color:#fff;
-}
 .header__link:hover {
   border-bottom: 1px solid white;
 }
@@ -112,7 +117,8 @@ footer.open {
 
 .hero {
   background-color: #24cca8;
-  width: 100%;
+  width: 100vw;
+  height: 101vh;
   padding: 25px 0px 60px;
   background-image: url(../assets/hero-bg.png);
   background-size: contain;
@@ -209,6 +215,9 @@ footer.open {
 }
 .footer__top {
   padding: 10px 0;
+}
+.footer .header__link.blue {
+  color: #fff !important;
 }
 .footer__wrapper {
   display: grid;
@@ -423,10 +432,10 @@ footer.open {
   gap: 20px;
   width: 100%;
   max-width: 500px;
-  transition: all 0.2s;
+  transition: all 0.5s ease-in-out;
 }
 .gg .hero1__content.shaxa {
-  transform: translateY(-140px);
+  transform: translateY(140px);
 }
 .gg .hero1__title {
   font-family: "Roboto", sans-serif;

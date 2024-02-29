@@ -1,6 +1,7 @@
 body {
   padding-top: 80px;
   position: relative;
+  overflow-x: hidden;
 }
 
 
@@ -153,7 +154,6 @@ footer {
   background-repeat: no-repeat;
   background-position: right;
   position: relative;
-  height:101vh;
   // .hero__wrapper
 
   &__wrapper {
